@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Ticket "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_order_list">OrderListActivity</string>
+    <string name="title_activity_person_info">PersonInfoActivity</string>
+    <string name="title_activity_person_info_update">PersonInfoUpdateActivity</string>
+    <string name="title_activity_person_tel_update">PersonTelUpdateActivity</string>
+    <string name="title_activity_person_psw_update">PersonPswUpdateActivity</string>
+    <string name="title_activity_person_email_update">PersonEmailUpdateActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="title_activity_search_train_list">SearchTrainListActivity</string>
+    <string name="title_activity_buy_ticket">BuyTicketActivity</string>
+    <string name="title_activity_order_result">OrderResultActivity</string>
+    <string name="title_activity_search_order">SearchOrderActivity</string>
+    <string name="title_activity_order_all">OrderAllActivity</string>
+    <string name="title_activity_order_not_travel">OrderNotTravelActivity</string>
+    <string name="title_activity_order_history">OrderHistoryActivity</string>
+    <string name="title_activity_order_unsubscribe">OrderUnsubscribeActivity</string>
+
+</resources>

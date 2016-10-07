@@ -1,0 +1,87 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout 
+        android:id="@+id/topll_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+        
+        <TextView
+        android:id="@+id/from_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="40sp"
+        android:text="韶关" />
+
+        <ImageView
+            android:id="@+id/change_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/exchange_blue" />
+
+        <TextView
+        android:id="@+id/to_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="40sp"
+        android:text="广州" />
+    </LinearLayout>
+    <LinearLayout  
+        android:id="@+id/midll_id"
+        android:layout_below="@id/topll_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">       
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="出发日期：" />
+        <TextView 
+            android:id="@+id/from_date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="2016-08-01" />
+    </LinearLayout>
+    <LinearLayout  
+        android:id="@+id/mid2ll_id"
+        android:layout_below="@id/midll_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">       
+        <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="出发时间：" />
+        <TextView 
+            android:id="@+id/from_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="00:00-24:00" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/search_btn_id"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mid2ll_id"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="查询" />
+
+</RelativeLayout>

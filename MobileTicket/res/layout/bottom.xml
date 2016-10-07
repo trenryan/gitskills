@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+   
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_reserver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="车票预订"
+            android:textColor="@drawable/btn_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="订单管理"
+            android:textColor="@drawable/btn_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="我的12036"
+            android:textColor="@drawable/btn_selector" />
+    </RadioGroup>
+</LinearLayout>

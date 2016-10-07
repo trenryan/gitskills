@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.java.ticket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.java.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.java.activity.OrderListActivity"
+            android:label="@string/title_activity_order_list" >
+        </activity>
+        <activity
+            android:name="com.java.activity.PersonInfoActivity"
+            android:label="@string/title_activity_person_info" >
+        </activity>
+        <activity
+            android:name="com.java.activity.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.java.activity.RegActivity"
+            android:label="@string/title_activity_reg" >
+        </activity>
+        <activity
+            android:name="com.java.activity.PersonInfoUpdateActivity"
+            android:label="@string/title_activity_person_info_update" >
+        </activity>
+        <activity
+            android:name="com.java.activity.PersonTelUpdateActivity"
+            android:label="@string/title_activity_person_tel_update" >
+        </activity>
+        <activity
+            android:name="com.java.activity.PersonPswUpdateActivity"
+            android:label="@string/title_activity_person_psw_update" >
+        </activity>
+        <activity
+            android:name="com.java.activity.PersonEmailUpdateActivity"
+            android:label="@string/title_activity_person_email_update" >
+        </activity>
+        <activity
+            android:name="com.liucanwen.citylist.CityListActivity"
+            android:label="选择城市" >
+        </activity>
+        <activity
+            android:name="com.java.activity.SearchTrainListActivity"
+            android:label="@string/title_activity_search_train_list" >
+        </activity>
+        <activity
+            android:name="com.java.activity.BuyTicketActivity"
+            android:label="@string/title_activity_buy_ticket" >
+        </activity>
+        <activity
+            android:name="com.java.activity.OrderResultActivity"
+            android:label="@string/title_activity_order_result" >
+        </activity>
+        <activity
+            android:name="com.java.activity.SearchOrderActivity"
+            android:label="@string/title_activity_search_order" >
+        </activity>
+        <activity
+            android:name="com.java.activity.OrderAllActivity"
+            android:label="@string/title_activity_order_all" >
+        </activity>
+        <activity
+            android:name="com.java.activity.OrderNotTravelActivity"
+            android:label="@string/title_activity_order_not_travel" >
+        </activity>
+        <activity
+            android:name="com.java.activity.OrderHistoryActivity"
+            android:label="@string/title_activity_order_history" >
+        </activity>
+        <activity
+            android:name="com.java.activity.OrderUnsubscribeActivity"
+            android:label="@string/title_activity_order_unsubscribe" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
